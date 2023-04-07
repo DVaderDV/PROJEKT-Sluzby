@@ -1,0 +1,80 @@
+/* společné*/
+body {
+    font-family: Montserrat;
+    text-align: center;
+    width: 500px;
+    border:#407BFF1F solid;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: medium;
+    font-size: 28px;
+    color: #000000;
+    line-height: 37px;
+}
+p {
+    font-weight: light;
+    font-size: 16px;
+    color: #8b8b8b;
+    line-height: 21px;
+}
+a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: medium;
+    font-size: 16px;
+    color: #000000;
+    line-height: 21px;
+    margin-top: 70px;
+}
+
+
+/*obrázek a úvod*/
+.beachboy {
+    width: 350px;
+    height: 290.5px;
+    margin: 60px 75.45px 39.5px 74.45px;
+}
+
+/*tlačítka*/
+.adventure {
+    background-color: #407BFF;
+    border-radius: 20px;
+    width: 195px;
+    margin: 25px 152pc 10px 153px;
+    padding: 11px 0 11px;
+}
+
+.chill {
+    background-color: #8B8B8B;
+    border-radius: 20px;
+    width: 220px;
+    text-align: center;
+    margin: 0px 140px 0px 140px;
+    padding: 11px 0px 10px;
+}
+ /*služby cestovní kanceláře*/
+ .box {
+    display: flex;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    margin: 15px 20px 15px 20px;
+    align-items: center;
+    /*border: 0.05px solid #407BFF1F;*/
+ }
+ .box p {
+    font-weight: light;
+    font-size: 13px;
+    color: #8b8b8b;
+    line-height: 17px;
+ }
+ .box img {
+    margin: 15px 29px 15px 20px;
+ }
