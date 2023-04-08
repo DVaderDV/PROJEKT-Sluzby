@@ -2,7 +2,6 @@
 body {
     font-family: Montserrat;
     text-align: center;
-    width: 500px;
     border:#407BFF1F solid;
     border-radius: 5px;
 }
@@ -37,28 +36,34 @@ h2 {
 
 
 /*obrázek a úvod*/
+
 .beachboy {
-    width: 350px;
-    height: 290.5px;
-    margin: 60px 75.45px 39.5px 74.45px;
+    display: cover;
+    margin: 60px 0 40px 0;
+    align-items: center;
 }
 
 /*tlačítka*/
-.adventure {
+.options {
+    display: flex;
+    flex:0 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+.options .adventure {
     background-color: #407BFF;
     border-radius: 20px;
-    width: 195px;
-    margin: 25px 152pc 10px 153px;
-    padding: 11px 0 11px;
+    margin: 10px 0 30px;
+    padding: 11px 10px 11px 10px;
+    text-align: center;
 }
 
-.chill {
+.options .chill {
     background-color: #8B8B8B;
     border-radius: 20px;
-    width: 220px;
     text-align: center;
-    margin: 0px 140px 0px 140px;
-    padding: 11px 0px 10px;
+    margin: 0;
+    padding: 11px 10px 10px;
 }
  /*služby cestovní kanceláře*/
  .box {
@@ -77,4 +82,63 @@ h2 {
  }
  .box img {
     margin: 15px 29px 15px 20px;
+ }
+ .delegates {
+    margin-bottom: 60px;
+ }
+ @media (min-width:640px) {
+    .options {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .options .chill {
+        margin: 10px 0 30px 20px;
+    }
+    .icons1,
+    .icons2 {
+        display: flex;
+        justify-content: center;
+    }
+    .box {
+        flex-direction: column;
+        padding: 15px;
+        margin: 20px;
+    }
+
+ }
+ @media (min-width:1100px) {
+    .first {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .intro p,
+    .intro h1 {
+        text-align: justify;
+        margin: 10px 90px 40px 80px;
+    }
+    .options {
+        text-align: justify;
+        margin-left: 80px;
+        justify-content: start;
+    }
+    .service {
+        display: flex;
+        margin: 0 80px 0 80px;
+    }
+    .agency {
+        flex-direction: row-reverse;
+
+    }
+    .text1,
+    .text2,
+    h2 {
+        text-align: justify;
+    }
+    
  }
