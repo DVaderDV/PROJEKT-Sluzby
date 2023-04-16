@@ -101,11 +101,20 @@ h2 {
     .icons2 {
         display: flex;
         justify-content: center;
+        gap: 20px;
     }
     .box {
         flex-direction: column;
         padding: 15px;
-        margin: 20px;
+        margin: 0;
+    }
+    .first,
+    .service {
+        margin: auto;
+        max-width: 550px;
+    }
+    .delegates {
+        margin-bottom: 60px;
     }
 
  }
@@ -178,5 +187,8 @@ h2 {
     .first,
     .agency {
         margin-bottom: 80px;
+    }
+    .delegates {
+        margin-bottom: 60px;
     }
  }
